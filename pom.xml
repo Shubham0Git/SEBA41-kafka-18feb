@@ -43,6 +43,7 @@
         <olt.api.version>3.0.1</olt.api.version>
         <dhcpl2relay.api.version>1.6.2</dhcpl2relay.api.version>
         <sadis.api.version>3.1.0</sadis.api.version>
+        <igmp.version>1.2.1-SNAPSHOT</igmp.version>
     </properties>
 
     <dependencies>
@@ -95,6 +96,12 @@
             <groupId>org.opencord</groupId>
             <artifactId>sadis-api</artifactId>
             <version>${sadis.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.opencord</groupId>
+            <artifactId>onos-app-igmpproxy</artifactId>
+            <version>${igmp.version}</version>
         </dependency>
 
     </dependencies>
